@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v5
       - name: Get Joke
         id: get-joke
-        uses: ./
+        uses: ./ 
       - name: Create comment
         uses: peter-evans/create-or-update-comment@v5
         with:

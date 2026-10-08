@@ -13,12 +13,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/viraj-vg/skills-write-javascript-actions/issues"
   },
   "homepage": "https://github.com/viraj-vg/skills-write-javascript-actions#readme",
-  "stpe": "=module",
+  "type": "module",
   "dependencies": {
     "@actions/core": "^3.0.1",
     "@vercel/ncc": "^0.45.0",

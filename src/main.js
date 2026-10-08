@@ -1,4 +1,4 @@
-import getJoke from "./jokes.js";
+import getJoke from "./joke.js";
 import * as core from "@actions/core";
 
 async function run() {
